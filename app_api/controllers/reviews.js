@@ -59,14 +59,7 @@ module.exports.reviewsViewOne = function (req, res) {
         });
     }
 };
-                }
-            );
-    } else {
-        sendJsonResponse(res, 404, {
-            "message": "No locationid in request"
-        });
-    }
-};
+
 module.exports.reviewsUpdateOne = function (req, res) {
     sendJsonResponse(res, 200, {"status" : "success"});
 };
