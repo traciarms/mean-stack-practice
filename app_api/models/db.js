@@ -2,7 +2,7 @@
  * Created by traciarms on 9/14/16.
  */
 var mongoose = require( 'mongoose' );
-var dbURI = 'mongodb://localhost:27017/';
+var dbURI = 'mongodb://localhost/Loc8r';
 if (process.env.NODE_ENV === 'production') {
     dbURI = 'mongodb://ds033036.mlab.com:33036/heroku_zj1m7pwc';
 
