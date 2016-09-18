@@ -14,7 +14,7 @@ var reviewSchema = new mongoose.Schema({
     author: {type: String, required: true},
     rating: {type: Number, required: true, min: 0, max: 5},
     createdOn: {type: Date, "default": Date.now},
-    reviewText: String
+    reviewText: {type: String, required: true}
 });
 
 var locationSchema = new mongoose.Schema({
